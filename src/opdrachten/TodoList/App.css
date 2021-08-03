@@ -1,0 +1,28 @@
+body {
+    background-color: #999966;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.todo-list {
+    border: solid 3px #2E2E1F;
+    width: 60vw;
+    background-color: #C2C2A3;
+    margin-top: 50px;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    font-size: 25px;
+    color: #0F0F0A;    
+}
+
+.list-item:nth-child(even) {
+    background-color: #D6D6C2;
+}

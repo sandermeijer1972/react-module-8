@@ -1,17 +1,52 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react"
+import ReactDOM from "react-dom"
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+// MOTHER-CHILD-COMPONENTS
+// import MotChiApp from "./opdrachten/mother-child-components/App.js"
+// ReactDOM.render(<MotChiApp />, document.getElementById("root"))
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// TODO-LIST
+// import "./opdrachten/TodoList/App.css"
+// import TodoApp from "./opdrachten/TodoList/App.js"
+// ReactDOM.render(<TodoApp />, document.getElementById("root"))
+
+
+// GRAPPEN
+// import "./opdrachten/grappen/App.css"
+// import JokeApp from "./opdrachten/grappen/App.js"
+// ReactDOM.render(<JokeApp />, document.getElementById("root"))
+
+
+// GREETING
+// import GreetApp from "./opdrachten/function-to-class/App.js"
+// ReactDOM.render(<GreetApp />, document.getElementById("root"))
+
+
+// REACT STATE PRACTISE
+// import PractiseApp from "./opdrachten/react-state-practise/App.js"
+// ReactDOM.render(<PractiseApp />, document.getElementById("root"))
+
+
+// CONDITIONAL RENDER
+// import "./opdrachten/conditional-render/App.css"
+// import RenderApp from "./opdrachten/conditional-render/App.js"
+// ReactDOM.render(<RenderApp />, document.getElementById("root")) 
+
+
+// STAR WARS API
+import "./opdrachten/starwars/App.css"
+import APIApp from "./opdrachten/starwars/App.js"
+ReactDOM.render(<APIApp />, document.getElementById("root"))
+
+
+// FORMULIER
+// import "./opdrachten/formulier/App.css"
+// import FormApp from "./opdrachten/formulier/App.js"
+// ReactDOM.render(<FormApp />, document.getElementById("root"))
+
+
+// MEME GENERATOR
+// import "./opdrachten/meme/App.css"
+// import MemeApp from "./opdrachten/meme/App.js"
+// ReactDOM.render(<MemeApp />, document.getElementById("root"))

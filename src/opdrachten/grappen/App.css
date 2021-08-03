@@ -1,0 +1,27 @@
+body {
+    background-color: #9933FF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #400080;
+    margin-left: 20vw;
+}
+
+.grap-lijst {
+    width: 80vw;
+}
+
+.grap {
+    border: solid 5px #400080;
+    background-color: #CC99FF;
+    margin: 15px;
+    padding: 0px 10px;
+    font-size: 22px;
+    color: #26004D;
+    line-height: 1.3;
+}
