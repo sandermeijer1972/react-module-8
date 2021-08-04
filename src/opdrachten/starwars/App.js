@@ -5,8 +5,7 @@ class App extends React.Component {
         super()
         this.state = {
             loading: false,
-            character: {},
-            planet: {}            
+            character: {},         
         }
     }
     

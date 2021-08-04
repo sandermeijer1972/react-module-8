@@ -35,9 +35,9 @@ import ReactDOM from "react-dom"
 
 
 // STAR WARS API
-import "./opdrachten/starwars/App.css"
-import APIApp from "./opdrachten/starwars/App.js"
-ReactDOM.render(<APIApp />, document.getElementById("root"))
+// import "./opdrachten/starwars/App.css"
+// import APIApp from "./opdrachten/starwars/App.js"
+// ReactDOM.render(<APIApp />, document.getElementById("root"))
 
 
 // FORMULIER
@@ -50,3 +50,9 @@ ReactDOM.render(<APIApp />, document.getElementById("root"))
 // import "./opdrachten/meme/App.css"
 // import MemeApp from "./opdrachten/meme/App.js"
 // ReactDOM.render(<MemeApp />, document.getElementById("root"))
+
+
+// USESTATE - HOOKS
+// import "./opdrachten/usestate-hooks/App.css"
+// import HooksApp from "./opdrachten/usestate-hooks/App.js"
+// ReactDOM.render(<HooksApp />, document.getElementById("root"))
