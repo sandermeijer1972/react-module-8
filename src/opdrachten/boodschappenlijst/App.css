@@ -1,0 +1,41 @@
+body {
+    background-color: #476B6B;
+    margin: 0;
+}
+
+header {
+    background-image: linear-gradient(to bottom right, #85ADAD, #F0F5F5);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 10px;
+}
+
+header img {
+    height: 50px;
+}
+
+.boodschappenlijstje {
+    font-family: 'Fuggles', cursive;
+    font-size: 40px;
+    list-style-type: none;
+    background-image: url("./blaadje.png");    
+    background-repeat:repeat;
+    background-size: cover;
+    position: relative;
+    width: 30vw;
+    max-height: 680px;
+    padding-top: 65px;
+    padding-left: 100px;
+    padding-bottom: 45px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}

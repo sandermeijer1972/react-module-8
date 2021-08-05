@@ -56,3 +56,9 @@ import ReactDOM from "react-dom"
 // import "./opdrachten/usestate-hooks/App.css"
 // import HooksApp from "./opdrachten/usestate-hooks/App.js"
 // ReactDOM.render(<HooksApp />, document.getElementById("root"))
+
+
+// BOODSCHAPPENLIJST
+import "./opdrachten/boodschappenlijst/App.css"
+import App from "./opdrachten/boodschappenlijst/App"
+ReactDOM.render(<App />, document.getElementById("root"))
