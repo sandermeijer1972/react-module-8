@@ -1,21 +1,22 @@
 import React from "react"
+import ListItem from "./ListItem"
 
 class List extends React.Component {
     render() {
         return (
             <ul className="boodschappenlijstje">                
-                <li>afbakbroodjes</li>
-                <li>hagelslag</li>
-                <li>pindakaas</li>
-                <li>roggebrood</li>
-                <li>m&m's</li>
-                <li>perssinaasappelen</li>
-                <li>emmertje yoghurt</li>
-                <li>bananen</li>
-                <li>borrelnootjes</li>
-                <li>bitterballen</li>
-                <li>doos eieren</li>                
-                <li>schuursponsjes</li>                        
+                <ListItem title="afbakbroodjes" />
+                <ListItem title="hagelslag" />
+                <ListItem title="pindakaas" />
+                <ListItem title="roggebrood" />
+                <ListItem title="m&m's" />
+                <ListItem title="perssinaasappelen" />
+                <ListItem title="emmertje yoghurt" />
+                <ListItem title="bananen" />
+                <ListItem title="borrelnootjes" />
+                <ListItem title="bitterballen" />
+                <ListItem title="doos eieren" />                
+                <ListItem title="schuursponsjes" />                        
             </ul>
         )
     }
