@@ -18,24 +18,105 @@ h1 {
     margin: 10px;
 }
 
+h2 {
+    color: #D1E0E0;
+    font-size: 30px;
+    margin-top: 40px;
+}
+
+button {
+    background-color: #1F2E2E;
+    color: #B3CCCC;
+    font-size: 20px;
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 header img {
     height: 50px;
 }
 
+.lijsten {
+    display: grid;
+    grid-template-columns: 40% 60%;    
+}
+
 .boodschappenlijstje {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.boodschappenlijstje ul {
     font-family: 'Fuggles', cursive;
     font-size: 40px;
     list-style-type: none;
     background-image: url("./blaadje.png");    
     background-repeat:repeat;
     background-size: cover;
-    position: relative;
-    width: 30vw;
+    position: relative; 
+    width: 30vw;   
     max-height: 680px;
     padding-top: 65px;
     padding-left: 100px;
     padding-bottom: 45px;
+    margin: 0;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+}
+
+.boodschappenlijstje ul li {
+    height: 35px;
+    cursor: pointer;
+}
+
+.winkelmand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.winkelmand ul {
+    font-size: 25px;
+    list-style-type: none;
+    width: 50vw;
+    background-color: #85ADAD;
+    padding: 10px;
+    margin: 0;
+    margin: 25px;
+    border-radius: 5px;
+}
+
+.winkelmand ul li {
+    padding: 10px;
+    padding-left: 35px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #E0EBEB;
+}
+
+.winkelmand ul li:nth-child(even) {
+    background-color: #C2D6D6;
+}
+
+
+@media (max-width: 750px) {
+    .lijsten {
+        display: flex;
+        flex-direction: column;        
+    }
+    .boodschappenlijstje {
+        border-bottom: solid 5px #1F2E2E;
+        padding-bottom: 25px;
+    }
+    .boodschappenlijstje ul {
+        width: 80vw;
+    }
+
+    .winkelmand ul {
+        width: 80vw;
+    }
 }
