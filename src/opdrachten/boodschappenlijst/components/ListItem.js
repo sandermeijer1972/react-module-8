@@ -25,7 +25,7 @@ function ListItem({item, clickItem}) {
                 <img alt="" src={turf8} style={{display: item.amount !== 8 && "none"}}></img>
                 <img alt="" src={turf9} style={{display: item.amount !== 9 && "none"}}></img>
                 <img alt="" src={turf10} style={{display: item.amount !== 10 && "none"}}></img>
-                <span style={{display: item.amount <= 10 && "none", fontFamily: "Reenie Beanie", fontSize: "30px"}}>heel veel</span>
+                <span style={{display: item.amount <= 10 && "none", fontFamily: "Reenie Beanie", fontSize: "30px"}}>heel veel ({item.amount})</span>
             </span>                    
         </li>
     )
