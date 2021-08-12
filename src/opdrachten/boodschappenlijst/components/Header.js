@@ -1,11 +1,12 @@
 import React from "react"
+import winkelwagen from "./images/winkelwagen.png"
 
 function Header() {
     return (
         <header>
-            <img src="https://image.flaticon.com/icons/png/512/46/46297.png" alt=""></img>
+            <img src={winkelwagen} alt=""></img>
             <h1>boodschappen doen</h1>
-            <img style={{transform: "scaleX(-1)"}} src="https://image.flaticon.com/icons/png/512/46/46297.png" alt=""></img>
+            <img style={{transform: "scaleX(-1)"}} src={winkelwagen} alt=""></img>
         </header>        
     )
 }
