@@ -67,7 +67,7 @@ header img {
     font-family: 'Fuggles', cursive;
     font-size: 40px;
     list-style-type: none;
-    background-image: url("./blaadje.png");    
+    background-image: url("./components/images/blaadje.png");    
     background-repeat:repeat;
     background-size: cover;
     position: relative; 
