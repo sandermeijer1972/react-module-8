@@ -13,9 +13,9 @@ import ReactDOM from "react-dom"
 
 
 // GRAPPEN
-// import "./opdrachten/grappen/App.css"
-// import JokeApp from "./opdrachten/grappen/App.js"
-// ReactDOM.render(<JokeApp />, document.getElementById("root"))
+import "./opdrachten/grappen/App.css"
+import JokeApp from "./opdrachten/grappen/App.js"
+ReactDOM.render(<JokeApp />, document.getElementById("root"))
 
 
 // GREETING
@@ -59,6 +59,6 @@ import ReactDOM from "react-dom"
 
 
 // BOODSCHAPPENLIJST
-import "./opdrachten/boodschappenlijst/App.css"
-import App from "./opdrachten/boodschappenlijst/App"
-ReactDOM.render(<App />, document.getElementById("root"))
+// import "./opdrachten/boodschappenlijst/App.css"
+// import App from "./opdrachten/boodschappenlijst/App"
+// ReactDOM.render(<App />, document.getElementById("root"))
