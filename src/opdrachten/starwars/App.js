@@ -1,4 +1,5 @@
 import React from "react"
+import picture from "./starwars.png"
 
 class App extends React.Component {
     constructor() {
@@ -30,7 +31,7 @@ class App extends React.Component {
         const text = this.state.loading ? "loading..." : this.state.character.name        
         return (
             <div className="starwars">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/390px-Star_Wars_Logo.svg.png" alt=""></img>
+                <img src={picture} alt="" onClick={this.componentDidMount}></img>
                 <p style={{
                     color: this.state.character.gender === "female" ? "#FFCCFF" : this.state.character.gender === "male" ? "#99CCFF" : "#CCFFCC",
                     fontSize: "60px",
