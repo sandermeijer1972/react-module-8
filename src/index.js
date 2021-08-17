@@ -59,6 +59,12 @@ import ReactDOM from "react-dom"
 
 
 // BOODSCHAPPENLIJST
-import "./opdrachten/boodschappenlijst/App.css"
-import App from "./opdrachten/boodschappenlijst/App"
-ReactDOM.render(<App />, document.getElementById("root"))
+// import "./opdrachten/boodschappenlijst/App.css"
+// import App from "./opdrachten/boodschappenlijst/App"
+// ReactDOM.render(<App />, document.getElementById("root"))
+
+
+// COMBI
+import "./opdrachten/combi/App.css"
+import CombiApp from "./opdrachten/combi/App"
+ReactDOM.render(<CombiApp />, document.getElementById("root"))
