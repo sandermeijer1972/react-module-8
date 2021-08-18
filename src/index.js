@@ -35,9 +35,9 @@ import ReactDOM from "react-dom"
 
 
 // STAR WARS API
-import "./opdrachten/starwars/App.css"
-import APIApp from "./opdrachten/starwars/App.js"
-ReactDOM.render(<APIApp />, document.getElementById("root"))
+// import "./opdrachten/starwars/App.css"
+// import APIApp from "./opdrachten/starwars/App.js"
+// ReactDOM.render(<APIApp />, document.getElementById("root"))
 
 
 // FORMULIER
@@ -65,6 +65,6 @@ ReactDOM.render(<APIApp />, document.getElementById("root"))
 
 
 // COMBI
-// import "./opdrachten/combi/App.css"
-// import CombiApp from "./opdrachten/combi/App"
-// ReactDOM.render(<CombiApp />, document.getElementById("root"))
+import "./opdrachten/combi/App.css"
+import CombiApp from "./opdrachten/combi/App"
+ReactDOM.render(<CombiApp />, document.getElementById("root"))

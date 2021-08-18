@@ -1,9 +1,10 @@
 import React from "react"
+import Conditional from "./Conditional"
 
 function Inloggen(props) {
     return (
-        <div style={{display: !props.status && "none"}}>
-            <h1>in/uitloggen</h1>
+        <div style={{display: !props.status && "none"}} className="inloggen">
+            <Conditional />
         </div>
     )
 }

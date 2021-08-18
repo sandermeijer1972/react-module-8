@@ -1,7 +1,9 @@
+/* START */
+
 body {
     padding: 0;
     margin: 0;
-    background-color: #ECF2F9;
+    background-color: #FF6600;
     overflow-x: hidden;
 }
 
@@ -28,6 +30,17 @@ body {
     background-color: #666666;
     color: #FFFFFF;
 }
+
+.begin {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 9px;
+}
+
+
+/* MOPPEN */
 
 .moppen {
     background-color: #9933FF;
@@ -57,6 +70,9 @@ body {
     line-height: 1.3;
 }
 
+
+/* STAR WARS */
+
 .star {
     background-color: black;
     background-image: url("./images/stars.jpg");
@@ -72,9 +88,43 @@ body {
     flex-direction: column;
     align-items: center;
 }
-
-.star img {
+.starwars .container {
+    position: relative;
+    cursor: pointer;
+}
+  
+.starwars .image {
+    display: block;
     width: 300px;
+}
+  
+.starwars .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000;
+}
+  
+.starwars .container:hover .overlay {
+    opacity: 1;
+}
+  
+.starwars .text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .gegevens {
@@ -89,6 +139,9 @@ body {
 .gegevens p {
     margin: 5px;
 }
+
+
+/* TELLER - STATE HOOKS */
 
 .hooks {
     background-color: #003300;
@@ -139,6 +192,9 @@ body {
     outline:0;
 }
 
+
+/* TODO LIST */
+
 .todos {
     background-color: #999966;
     display: flex;
@@ -168,13 +224,119 @@ body {
     background-color: #D6D6C2;
 }
 
+
+/* FORMULIER */
+
+.invullen {
+    background-color: #000066;
+    height: 90vh;
+    padding-top: 20px;
+}
+
+.grid {    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-size: 25px;
+    margin: 30px;
+}
+
+.invullen input {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.invullen select {
+    font-size: 20px;
+    padding: 5px;
+    margin-top: 25px;
+}
+
+.invullen button {
+    font-size: 25px;
+    margin-top: 50px;
+}
+
+.formulier {
+    background-color: #FFA64D;
+    margin: 10px;
+    padding: 10px;    
+}
+
+.invullen form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingevuld {
+    background-color: #FFFF99;
+    margin: 10px;
+    padding: 10px;
+}
+
+.gender {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.foodallergy {
+    display: flex;
+    flex-direction: column;
+}
+
+.invullen li {
+    margin-left: 50px;
+}
+
+
+/* INLOGGEN - CONDITIONAL RENDERING */
+
+.inloggen {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+.inloggen div {
+    background-color: blue;
+    border: solid 5px yellow;
+    width: 300px;
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inloggen h2 {
+    color: yellow;
+}
+
+.inloggen button {
+    font-size: 25px;
+    width: 125px;
+    padding: 10px;
+}
+
+.inloggen button:hover {
+    cursor: pointer;
+}
+
+
+/* MEME GENERATOR */
+
 .generator * {
     box-sizing: border-box;
 }
 
 .generator {
     margin: 0;
-    background-color: whitesmoke;
+    background-color: #DCBBF7;
+    height: 100%;
+    padding-bottom: 20px;
 }
 
 .generator header {
@@ -200,7 +362,7 @@ body {
 
 .meme {
     position: relative;
-    width: 90%;
+    width: 60vw;
     margin: auto;
 }
 

@@ -55,7 +55,7 @@ class MemeGenerator extends React.Component {
                         onChange={this.handleChange}
                     /> 
                 
-                    <button>Gen</button>
+                    <button>GEN</button>
                 </form>
                 <div className="meme">
                     <img src={this.state.randomImg} alt="" />

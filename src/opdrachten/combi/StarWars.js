@@ -10,8 +10,7 @@ class StarWars extends React.Component {
             character: {},         
         }
     }
-    
-    componentDidMount() {
+    newPerson = () => {
         const randomNumber = Math.floor(Math.random() * 83) + 1
         console.log(randomNumber)
         this.setState({loading: true})
@@ -28,11 +27,20 @@ class StarWars extends React.Component {
             })        
     }
     
+    componentDidMount() {
+        this.newPerson()  
+    }
+
     render() {
         const text = this.state.loading ? "loading..." : this.state.character.name        
         return (
             <div className="starwars">
-                <img src={swpicture} alt=""></img>
+                <div className="container" onClick={this.newPerson.bind(this)}>
+                    <img src={swpicture} alt="" className="image"></img>
+                    <div className="overlay">
+                        <div className="text">klik voor ander personage</div>
+                    </div>
+                </div>                
                 <p style={{
                     color: this.state.character.gender === "female" ? "#FFCCFF" : this.state.character.gender === "male" ? "#99CCFF" : "#CCFFCC",
                     fontSize: "60px",
@@ -41,11 +49,11 @@ class StarWars extends React.Component {
                 >{text}
                 </p>
                 <div className="gegevens" style={{display: this.state.loading && "none"}}>
-                    <p>height: {this.state.character.height} cm</p>
-                    <p>weight: {this.state.character.mass} kg</p>
-                    <p>skin-color: {this.state.character.skin_color}</p>
-                    <p>hair-color: {this.state.character.skin_color}</p>
-                    <p>eye-color: {this.state.character.eye_color}</p>                
+                    <p>hoogte: {this.state.character.height} cm</p>
+                    <p>gewicht: {this.state.character.mass} kg</p>
+                    <p>huidskleur: {this.state.character.skin_color}</p>
+                    <p>haarkleur: {this.state.character.skin_color}</p>
+                    <p>kleur ogen: {this.state.character.eye_color}</p>                
                 </div>              
             </div>
         )
