@@ -229,8 +229,7 @@ body {
 
 .invullen {
     background-color: #000066;
-    height: 90vh;
-    padding-top: 20px;
+    padding: 30px 5px;
 }
 
 .grid {    
@@ -238,6 +237,13 @@ body {
     grid-template-columns: 1fr 1fr;
     font-size: 25px;
     margin: 30px;
+}
+
+@media (max-width: 800px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .invullen input {
