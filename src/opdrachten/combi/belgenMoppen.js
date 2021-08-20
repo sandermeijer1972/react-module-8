@@ -67,7 +67,53 @@ const grappenData = [
     {
         id: "15",
         punchLine: "Laatst zijn er 15 Belgen verdronken in de haven van Antwerpen... Ze waren een onderzeeër aan het aanduwen!"
-    }
+    },
+    {
+        id: "16",
+        question: "Hoe herken je een Belgische piraat?",
+        punchLine: "Die heeft voor beide ogen een lapje!"
+    },
+    {
+        id: "17",
+        question: "Hoe isoleert een Belg zijn kippenhok?",
+        punchLine: "Met dubbel gaas!"
+    },
+    {
+        id: "18",
+        punchLine: "Twee Belgische politiemannen vinden in het park twee bommen. Die willen ze naar de commissaris brengen. Als ze in de auto zitten zegt de ene tegen de andere: 'Wat doen we als er één ontploft?' Waarop de ander zegt: 'Dan doen we of we er maar één gevonden hebben!'"
+    },
+    {
+        id: "19",
+        question: "Hoe vangt een Belg een konijn?",
+        punchLine: "Hij gaat achter een boom zitten en doet het geluid na van een wortel!"
+    },
+    {
+        id: "20",
+        punchLine: "Er loopt een Belg over straat met een stokbrood in zijn kont. Dus ik vraag hem waarom hij dat doet. Zegt hij: 'Ik ben vanmorgen bij de tandarts geweest, en ik moet voorlopig met de andere kant eten!'"
+    },
+    {
+        id: "21",
+        question: "Wat is zwart en ligt in de sneeuw?",
+        punchLine: "Een gecamoufleerde Belg!"
+    },
+    {
+        id: "22",
+        punchLine: "Een Nederlander, een Duitser en een Belg gaan ontwikkelingswerk doen. Bij de voorbereiding komen ze elkaar tegen en hebben ze het over de gevaren van aids in die landen. Daarom besluiten ze ook condooms mee te nemen. In het vliegtuig komen ze elkaar weer tegen, en bespreken dan hoeveel condooms ze mee hebben. De Nederlander zegt: 'Ik heb er 100 meegenomen, dat moet wel genoeg zijn.' De Duitser zegt: 'Ik heb er 75 mee, dat moet voldoende zijn.' Ze kijken de Belg aan en die zegt: 'Ik heb er 11 mee, meer kon ik er niet omheen krijgen!'"
+    },
+    {
+        id: "23",
+        punchLine: "De Belgen lanceren hun eerste raket vanaf Cape Ukkel. Aan boord bevinden zich twee varkens en Sjefke. De raket geraakt buiten de dampkring en stoot de eerste trap af. Het station op Aarde neemt contact op met de raket: 'Hier de Aarde, hier Cape Ukkel, Varken Eén, Varken Eén, come in please!' 'Knor knor, hier Varken Eén, Varken Eén, ik kan u luid en duidelijk verstaan!' 'Hallo Varken Eén, kent u uw instructies nog?' 'Jawel', zegt Varken Eén, 'Als we bij de Maan aankomen druk ik op de rode knop en gaan we landen.' 'Uitstekend! Over en uit.' De raket vliegt verder door de ruimte en stoot de tweede trap af. Het station op Aarde neemt weer contact op met de raket: 'Hier de Aarde, hier Cape Ukkel, Varken Twee, Varken Twee, come in please!' 'Knor knor, hier Varken Twee, hier Varken Twee, ik kan u luid en duidelijk verstaan!' 'Hallo Varken Twee, kent u uw instructies nog?' 'Jawel', zegt Varken Twee, 'Als we op de maan zijn, en willen vertrekken, druk ik op de groene knop en stijgen we op.' 'Uitstekend! Over en uit.' De raket vliegt almaar verder en stoot de derde trap af. Het station op Aarde neemt nogmaals contact op: 'Hier de Aarde, hier Cape Ukkel, Sjefke, Sjefke, come in please!' 'Hier Sjefke, hier Sjefke, ik kan u luid en duidelijk verstaan!' 'Hallo Sjefke, ken je je instructies nog?' 'Jawel', zegt Sjefke, 'Ik geef de varkens te vreten en blijf van alle knoppen af!' "
+    },
+    {
+        id: "24",
+        question: "Hoe peutert een Belg in zijn neus?",
+        punchLine: "Hij maakt met zijn vingers een rondje om zijn neus en zegt: 'Kom er uit, je bent omsingeld!'"
+    },
+    {
+        id: "25",
+        question: "Hoeveel belgenmoppen zijn er?",
+        punchLine: "Geen, ze zijn allemaal waar!"
+    },
 ]
 
 export default grappenData
